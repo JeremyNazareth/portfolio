@@ -23,10 +23,10 @@ export default function RootLayout({
         <header id="header" className="flex justify-between py-10 px-18">
           <p className="text-3xl font-extrabold">Jeremy Nazareth</p>
           <nav className="flex text-center text-lg/12 font-bold gap-5">
-            <a href="home">Inicio</a>
+            <a href="#home">Inicio</a>
             <a href="#about">Sobre mi</a>
-            <a href="">Habilidades</a>
-            <a href="">Projectos</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projectos</a>
           </nav>
         </header>
         <main className="mx-20 my-30">
