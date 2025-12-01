@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-}
 
 @theme inline {
-  
+  --color-primary: #00152b;
+  --color-secondary: #ffc400;
+  --font-primary: 'Funnel Sans Variable', sans-serif;
 }
 
 body {
-
+  background: var(--color-primary);
+  font-family: var(--font-primary);
+  color: #ffc400; 
 }
