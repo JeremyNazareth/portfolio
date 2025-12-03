@@ -3,15 +3,15 @@ import { BiHome } from "react-icons/bi";
 export default function Page(){
     return(
         <>
-        <article id="home" className="mt-35 scroll-m-80">
+        <section id="home" className="mt-35 scroll-m-80">
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
             <div className="flex text-5xl items-end">
                 <p className="flex-initial leading-20">soy&nbsp;</p>
                 <p className="text-8xl text-white font-bold flex-initial">Jeremy Nazareth</p>
             </div>
-            <p className="text-4xl">front-end Developer</p>
+            <p className="text-4xl text-gray-300">front-end Developer</p>
             <button className="secondary-text bg-secondary p-3 rounded-full my-4">Descargar CV</button>
-        </article>
+        </section>
         
         <div className="fixed flex items-center left-1/2 bottom-5">
             <a className="bg-secondary text-black rounded-full h-10 w-10 flex" href="#home"><div className="mx-auto my-auto"><BiHome size={25} strokeWidth={1}/></div></a>
@@ -21,16 +21,19 @@ export default function Page(){
             </div>
         </div>
         
-        <article id="about">
-            <h1 className="text-5xl font-bold">Sobre mi</h1>
+        <section id="about">
+            <h1 className="text-5xl font-bold text-white">Sobre mi</h1>
             <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
-        </article>
-        <article id="skills">
+        </section>
+        <section id="skills">
 
-        </article>
-        <article id="projects">
-            <h1>Habilidades</h1>
-        </article>
+        </section>
+        <section id="projects">
+            <h1 className="text-5xl font-bold text-white">Habilidades</h1>
+            <div className="bg-secondary w-25">
+                <h1>texto</h1>
+            </div>
+        </section>
         </>
     )
 }

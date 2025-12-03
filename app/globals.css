@@ -23,6 +23,7 @@
    color: black;
   }
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -32,7 +33,7 @@ body {
   color: #ffc400; 
 }
 
-article{
+section {
   margin-bottom: 300px;
 }
 
