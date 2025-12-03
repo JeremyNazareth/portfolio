@@ -5,10 +5,30 @@
   --color-primary: #00152b;
   --color-secondary: #ffc400;
   --font-primary: 'Funnel Sans Variable', sans-serif;
+  --font-secondary:'Baloo 2 Variable', system-ui;
 }
 
+@layer components {
+  .secondary-text{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+  }  
+
+  .scroll-section-btn{
+   background-color: var(--color-secondary);
+   width: 25px;
+   height: 25px;
+   border-radius: calc(infinity * 1px);
+   color: black;
+  }
+}
 body {
   background: var(--color-primary);
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: #ffc400; 
+}
+
+nav{
+  font-family: var(--font-primary);
 }

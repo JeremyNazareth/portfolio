@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import '@fontsource-variable/funnel-sans'
+import '@fontsource-variable/baloo-2';
 
 export const metadata: Metadata = {
   title: "Jeremy Portfolio",
