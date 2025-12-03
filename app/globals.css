@@ -23,10 +23,17 @@
    color: black;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--color-primary);
   font-family: var(--font-secondary);
   color: #ffc400; 
+}
+
+article{
+  margin-bottom: 300px;
 }
 
 nav{

@@ -22,7 +22,8 @@ export default function RootLayout({
     <html lang="en">                                                                 
       <body>
         <header id="header" className="flex justify-between py-10 px-18">
-          <p className="text-3xl font-extrabold">Jeremy Nazareth</p>
+          <a className="text-3xl font-extrabold" href="#home">Jeremy Nazareth</a>
+        
           <nav className="flex text-center text-lg/12 font-bold gap-5">
             <a href="#home">Inicio</a>
             <a href="#about">Sobre mi</a>
