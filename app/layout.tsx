@@ -21,17 +21,17 @@ export default function RootLayout({
   return (
     <html lang="en">                                                                 
       <body>
-        <header id="header" className="flex justify-between py-10 px-18">
+        <header id="header" className="flex justify-between py-10 lg:max-w-5xl md:max-w-2xl mx-auto px-5">
           <a className="text-3xl font-extrabold" href="#home">Jeremy Nazareth</a>
         
-          <nav className="flex text-center text-lg/12 font-bold gap-5">
+          <nav className="flex text-center text-lg/9 font-bold gap-5">
             <a href="#home">Inicio</a>
             <a href="#projects">Projectos</a>
             <a href="#skills">Habilidades</a>           
             <a href="#about">Sobre mi</a>
           </nav>
         </header>
-        <main className="mx-20 my-30">
+        <main className="lg:max-w-5xl md:max-w-2xl mx-auto px-5">
           {children}
         </main>
         

@@ -30,11 +30,11 @@ html {
 body {
   background: var(--color-primary);
   font-family: var(--font-secondary);
-  color: #ffc400; 
+  color: #ffc400;
 }
 
 section {
-  margin-bottom: 20%;
+  margin-bottom: 10rem;
 }
 
 nav{

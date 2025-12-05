@@ -3,13 +3,13 @@ import { BiHome } from "react-icons/bi";
 export default function Page(){
     return(
         <>
-        <section id="home" className="mt-[10%] scroll-m-80">
+        <section id="home" className="pt-40 scroll-m-80">
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
             <div className="flex text-5xl items-end">
-                <p className="flex-initial leading-20">soy&nbsp;</p>
-                <p className="text-8xl text-white font-bold flex-initial">Jeremy Nazareth</p>
+                <p className="flex-initial leading-13 text-4xl">soy&nbsp;</p>
+                <p className="text-5xl text-white font-bold flex-initial sm:text-6xl">Jeremy Nazareth</p>
             </div>
-            <p className="text-4xl text-gray-300">front-end Developer</p>
+            <p className="text-3xl text-gray-300">front-end Developer</p>
             <button className="secondary-text bg-secondary p-3 rounded-full my-4">Descargar CV</button>
         </section>
         
@@ -23,11 +23,11 @@ export default function Page(){
         
         <section id="projects">
             <div className="">
-                <h1 className="text-5xl font-bold text-white">Projectos</h1>
+                <h1 className="text-4xl font-bold text-white">Projectos</h1>
                 <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
             </div>
         </section>
-        
+
         <section id="skills">
             <h1 className="text-5xl font-bold text-white">Habilidades</h1>
             <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
