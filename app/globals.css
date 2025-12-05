@@ -42,3 +42,8 @@ nav{
   font-family: var(--font-primary);
   color: white;
 }
+
+section article {
+  padding-left: 4rem;
+  margin: 25px 0px;
+}

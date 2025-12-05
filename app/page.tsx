@@ -1,5 +1,6 @@
-import { BiHome } from "react-icons/bi";
-
+import { AiFillHome } from "react-icons/ai";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 export default function Page(){
     return(
         <>
@@ -14,18 +15,25 @@ export default function Page(){
         </section>
         
         <div className="fixed flex items-center left-1/2 bottom-5">
-            <a className="bg-secondary text-black rounded-full h-10 w-10 flex" href="#home"><div className="mx-auto my-auto"><BiHome size={25} strokeWidth={1}/></div></a>
+            <a className="bg-secondary text-black rounded-full h-10 w-10 flex" href="#home"><div className="mx-auto my-auto mb-[0.5rem]"><AiFillHome size={25} strokeWidth={"4"}/></div></a>
             <div className="flex flex-col gap-1">
-                <button className="scroll-section-btn"><p className="flex-1">▲</p></button>
-                <button className="scroll-section-btn"><p className="flex-1">▼</p></button>
+                <button className="scroll-section-btn"><IoIosArrowUp className="m-auto mb-1" size={20}/></button>
+                <button className="scroll-section-btn"><IoIosArrowDown className="m-auto mt-0" size={20} /></button>
             </div>
         </div>
         
         <section id="projects">
-            <div className="">
-                <h1 className="text-3xl font-bold text-white">Proyectos</h1>
-                <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
-            </div>
+            <h1 className="text-3xl font-bold text-white">Proyectos</h1>
+            <article className="mt-2">
+                <div>
+                    <h1 className="text-2xl font-bold"> Movie Search</h1>
+                <p className="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
+                    <img className="border-2 rounded-3xl p-4 my-8 w-2xl" src="movieSearch_Project.png" alt="" />        
+                </div>
+                
+            </article>
+            
+            
         </section>
 
         <section id="skills">
