@@ -4,8 +4,8 @@
 @theme inline {
   --color-primary: #00152b;
   --color-secondary: #ffc400;
-  --font-primary: 'Funnel Sans Variable', sans-serif;
-  --font-secondary:'Baloo 2 Variable', system-ui;
+  --font-primary:'Baloo 2 Variable', system-ui;
+  --font-secondary: 'Funnel Sans Variable', sans-serif;
 }
 
 @layer components {
@@ -26,11 +26,12 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 body {
-  background: var(--color-primary);
-  font-family: var(--font-secondary);
-  color: #ffc400;
+  background: linear-gradient(180deg, var(--color-primary), black);
+  font-family: var(--font-primary);
+  color: #dbb63a;
 }
 
 section {
@@ -39,4 +40,5 @@ section {
 
 nav{
   font-family: var(--font-primary);
+  color: white;
 }
