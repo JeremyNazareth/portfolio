@@ -3,7 +3,7 @@ import { BiHome } from "react-icons/bi";
 export default function Page(){
     return(
         <>
-        <section id="home" className="mt-20 scroll-m-80">
+        <section id="home" className="mt-[10%] scroll-m-80">
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
             <div className="flex text-5xl items-end">
                 <p className="flex-initial leading-20">soy&nbsp;</p>
@@ -21,15 +21,18 @@ export default function Page(){
             </div>
         </div>
         
-        <section id="skills">
-
-        </section>
         <section id="projects">
-            <h1 className="text-5xl font-bold text-white">Habilidades</h1>
-            <div className="bg-secondary w-25">
-                <h1>texto</h1>
+            <div className="">
+                <h1 className="text-5xl font-bold text-white">Projectos</h1>
+                <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
             </div>
         </section>
+        
+        <section id="skills">
+            <h1 className="text-5xl font-bold text-white">Habilidades</h1>
+            <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
+        </section>
+        
 
         <section id="about">
             <h1 className="text-5xl font-bold text-white">Sobre mi</h1>
