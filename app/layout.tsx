@@ -26,9 +26,9 @@ export default function RootLayout({
         
           <nav className="flex text-center text-lg/12 font-bold gap-5">
             <a href="#home">Inicio</a>
-            <a href="#about">Sobre mi</a>
             <a href="#skills">Habilidades</a>
             <a href="#projects">Projectos</a>
+            <a href="#about">Sobre mi</a>
           </nav>
         </header>
         <main className="mx-20 my-30">
