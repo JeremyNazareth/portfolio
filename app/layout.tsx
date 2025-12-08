@@ -24,7 +24,7 @@ export default function RootLayout({
         <header id="header" className="px-5 py-1 my-10 lg:max-w-5xl md:max-w-2xl mx-auto flex justify-between rounded-full border-2">
           <a className="text-3xl font-semibold text-white" href="#home">Jeremy Nazareth</a>
         
-          <nav className="flex text-lg/9 font-semibold gap-5">
+          <nav className="flex text-lg/10 font-medium gap-5">
             <a href="#projects">Proyectos</a>
             <a href="#skills">Habilidades</a>           
             <a href="#about">Sobre mi</a>

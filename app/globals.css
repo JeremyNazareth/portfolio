@@ -3,7 +3,7 @@
 
 @theme inline {
   --color-primary: #00152b;
-  --color-secondary: #ffc400;
+  --color-secondary: #F0C022;
   --font-primary:'Baloo 2 Variable', system-ui;
   --font-secondary: 'Funnel Sans Variable', sans-serif;
   --shadow-primary: rgba(255, 255, 255, 0.2) 0px 0px 10px 2px;
@@ -49,10 +49,11 @@ html {
   scroll-behavior: smooth;
   
 }
+
 body {
   background: radial-gradient(ellipse at top,var(--color-primary), #00090F);
   font-family: var(--font-primary);
-  color: #dbb63a;
+  color: var(--color-secondary);
 }
 
 section {
