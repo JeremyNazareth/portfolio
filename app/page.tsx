@@ -26,11 +26,28 @@ export default function Page(){
             <h1 className="text-3xl font-bold text-white">Proyectos</h1>
             <article className="mt-2">
                 <div>
+                    <img className="border-2 rounded-3xl p-2 my-8 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
                     <h1 className="text-2xl font-bold"> Movie Search</h1>
-                <p className="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
-                    <img className="border-2 rounded-3xl p-4 my-8 w-2xl" src="movieSearch_Project.png" alt="" />        
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
                 </div>
-                
+                <ul className="flex gap-3 mt-2">
+                    <li className="badge items-center">
+                        <img className="badgeIcon" src="React_light.svg" alt="" />
+                        <p>React</p>
+                    </li>
+                    <li className="badge items-center">
+                        <img className="badgeIcon" src="vitejs.svg" alt="" />
+                        <p>Vite</p>
+                    </li>
+                    <li className="badge items-center">
+                        <img className="badgeIcon" src="vitejs.svg" alt="" />
+                        <p>Vite</p>
+                    </li>
+                    <li className="badge items-center">
+                        <img className="badgeIcon" src="vitejs.svg" alt="" />
+                        <p>Vite</p>
+                    </li>
+                </ul>
             </article>
             
             
