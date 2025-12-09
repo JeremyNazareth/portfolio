@@ -26,6 +26,13 @@
   }
   
 
+  .projects{
+    
+  }
+
+  .projects-container{
+    display: flex;
+  }
   .badge{
     display: inline-flex;
     background-color: var(--color-primary);
@@ -68,6 +75,5 @@ nav{
 }
 
 section article {
-  padding-left: 4rem;
-  margin: 25px 0px;
+  margin: 0px;
 }

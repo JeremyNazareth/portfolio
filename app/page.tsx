@@ -22,34 +22,86 @@ export default function Page(){
             </div>
         </div>
         
-        <section id="projects">
+        <section id="projects" className="projects-section">
             <h1 className="text-3xl font-semibold text-white">Proyectos</h1>
-            <article className="mt-2">
-                <header>
-                    <h1 className="text-2xl font-semibold"> Movie Search</h1>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
-                </header>
+            <div className="projects-container flex mt-5">
                 
-                <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
-                <ul className="flex gap-3 mt-3">
-                    <li className="badge items-center">
-                        <img className="badgeIcon" src="React_light.svg" alt="" />
-                        <p>React</p>
-                    </li>
-                    <li className="badge items-center">
-                        <img className="badgeIcon" src="vitejs.svg" alt="" />
-                        <p>Vite</p>
-                    </li>
-                    <li className="badge items-center">
-                        <img className="badgeIcon" src="typescript.svg" alt="" />
-                        <p>Typescript</p>
-                    </li>
-                    <li className="badge items-center">
-                        <img className="badgeIcon" src="html5.svg" alt="" />
-                        <p>Html 5</p>
-                    </li>
-                </ul>
-            </article>
+                <div className="projects">
+                    
+                    <article className="flex">       
+                        <div className="w-30">
+                            <div className="h-full flex">
+                                <div className="h-full w-1 bg-secondary mx-auto"> </div>
+                                <div className="h-4 w-4 rounded-full bg-secondary relative right-[50%] top-2 shadow-primary"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <header>
+                                <h1 className="text-2xl font-semibold text-white"> Movie Search</h1>
+                                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
+                            </header>
+                            
+                            <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
+                            <ul className="flex gap-3 mt-3 mb-6">
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="React_light.svg" alt="" />
+                                    <p>React</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="vitejs.svg" alt="" />
+                                    <p>Vite</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="typescript.svg" alt="" />
+                                    <p>Typescript</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="html5.svg" alt="" />
+                                    <p>Html 5</p>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </article>
+                    <article className="flex">       
+                        <div className="w-30">
+                            <div className="h-full flex">
+                                <div className="h-full w-1 bg-secondary mx-auto"> </div>
+                                <div className="h-4 w-4 rounded-full bg-secondary relative right-[50%] top-2 shadow-primary"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <header>
+                                <h1 className="text-2xl font-semibold text-white"> Movie Search</h1>
+                                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
+                            </header>
+                            
+                            <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
+                            <ul className="flex gap-3 mt-3">
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="React_light.svg" alt="" />
+                                    <p>React</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="vitejs.svg" alt="" />
+                                    <p>Vite</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="typescript.svg" alt="" />
+                                    <p>Typescript</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="html5.svg" alt="" />
+                                    <p>Html 5</p>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </article>
+                </div>
+                  
+            </div>
+            
             
             
         </section>
