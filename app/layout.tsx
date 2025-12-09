@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import '@fontsource-variable/funnel-sans'
 import '@fontsource-variable/baloo-2';
+import '@fontsource-variable/jetbrains-mono';
 
 export const metadata: Metadata = {
   title: "Jeremy Portfolio",
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">                                                                 
       <body>
-        <header id="header" className="px-5 py-1 my-10 lg:max-w-5xl md:max-w-2xl mx-auto flex justify-between rounded-full border-2">
+        <header id="header" className="shadow-primary bg-primary px-5 py-1 my-10 lg:max-w-5xl md:max-w-2xl mx-auto flex justify-between rounded-full border-2">
           <a className="text-3xl font-semibold text-white" href="#home">Jeremy Nazareth</a>
         
           <nav className="flex text-lg/10 font-medium gap-5">

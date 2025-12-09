@@ -2,10 +2,11 @@
 
 
 @theme inline {
-  --color-primary: #00152b;
-  --color-secondary: #F0C022;
+  --color-primary: #011833;
+  --color-secondary: #E0B834;
   --font-primary:'Baloo 2 Variable', system-ui;
   --font-secondary: 'Funnel Sans Variable', sans-serif;
+  --font-testing: 'JetBrains Mono Variable', monospace;
   --shadow-primary: rgba(255, 255, 255, 0.2) 0px 0px 10px 2px;
 }
 
@@ -27,6 +28,7 @@
 
   .badge{
     display: inline-flex;
+    background-color: var(--color-primary);
     border-radius: 1.5rem;
     width: auto;
     padding: 0.2rem 0.6rem;
