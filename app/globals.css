@@ -62,7 +62,7 @@ html {
 body {
   background: radial-gradient(ellipse at top,var(--color-primary), #00090F);
   font-family: var(--font-primary);
-  color: var(--color-secondary);
+  color: white;
 }
 
 section {

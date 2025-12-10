@@ -7,8 +7,8 @@ export default function Page(){
         <section id="home" className="pt-40 scroll-m-80">
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
             <div className="flex text-5xl items-end">
-                <p className="flex-initial leading-13 text-4xl text-white">Soy&nbsp;</p>
-                <p className="text-5xl text-white font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</p>
+                <p className="flex-initial leading-13 text-4xl text-secondary">Soy&nbsp;</p>
+                <p className="text-5xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</p>
             </div>
             <p className="text-3xl text-gray-300">front-end Developer</p>
             <button className="border-secondary text-secondary bg-primary border-2 px-3 py-1 rounded-full my-4 shadow-primary text-lg">Descargar CV</button>
@@ -23,7 +23,7 @@ export default function Page(){
         </div>
         
         <section id="projects" className="projects-section">
-            <h1 className="text-3xl font-semibold text-white">Proyectos</h1>
+            <h1 className="text-3xl font-semibold text-secondary">Proyectos</h1>
             <div className="projects-container flex mt-5">
                 
                 <div className="projects">
@@ -37,11 +37,11 @@ export default function Page(){
                         </div>
                         <div>
                             <header>
-                                <h1 className="text-2xl font-semibold text-white"> Movie Search</h1>
+                                <h1 className="text-2xl font-semibold text-secondary"> Movie Search</h1>
                                 <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
                             </header>
                             
-                            <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
+                            <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
                             <ul className="flex gap-3 mt-3 mb-6">
                                 <li className="badge items-center">
                                     <img className="badgeIcon" src="React_light.svg" alt="" />
@@ -72,7 +72,7 @@ export default function Page(){
                         </div>
                         <div>
                             <header>
-                                <h1 className="text-2xl font-semibold text-white"> Movie Search</h1>
+                                <h1 className="text-2xl font-semibold text-secondary"> ClassMate</h1>
                                 <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
                             </header>
                             
