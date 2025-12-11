@@ -1,7 +1,9 @@
-import { AiFillHome } from "react-icons/ai";
-import { IoIosArrowDown } from "react-icons/io";
-import { IoIosArrowUp } from "react-icons/io";
+
+import NavegationButtons from './components/NavigationButtons'
+
 export default function Page(){
+
+
     return(
         <>
         <section id="home" className="pt-40 scroll-m-80">
@@ -14,14 +16,8 @@ export default function Page(){
             <button className="border-secondary text-secondary bg-primary border-2 px-3 py-1 rounded-full my-4 shadow-primary text-lg">Descargar CV</button>
         </section>
         
-        <div className="fixed flex items-center left-1/2 bottom-5">
-            <a className="bg-secondary text-black rounded-full h-10 w-10 flex" href="#home"><div className="mx-auto my-auto mb-[0.5rem]"><AiFillHome size={25} strokeWidth={"4"}/></div></a>
-            <div className="flex flex-col gap-1">
-                <button className="scroll-section-btn"><IoIosArrowUp className="m-auto mb-1" size={20}/></button>
-                <button className="scroll-section-btn"><IoIosArrowDown className="m-auto mt-0" size={20} /></button>
-            </div>
-        </div>
-        
+        <NavegationButtons/>
+
         <section id="projects" className="projects-section">
             <h1 className="text-3xl font-semibold text-secondary">Proyectos</h1>
             <div className="projects-container flex mt-5">
@@ -79,21 +75,18 @@ export default function Page(){
                             <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
                             <ul className="flex gap-3 mt-3">
                                 <li className="badge items-center">
-                                    <img className="badgeIcon" src="React_light.svg" alt="" />
-                                    <p>React</p>
-                                </li>
-                                <li className="badge items-center">
-                                    <img className="badgeIcon" src="vitejs.svg" alt="" />
-                                    <p>Vite</p>
-                                </li>
-                                <li className="badge items-center">
-                                    <img className="badgeIcon" src="typescript.svg" alt="" />
-                                    <p>Typescript</p>
-                                </li>
-                                <li className="badge items-center">
                                     <img className="badgeIcon" src="html5.svg" alt="" />
-                                    <p>Html 5</p>
+                                    <p>HTML5</p>
                                 </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="javascript.svg" alt="" />
+                                    <p>JavaScript</p>
+                                </li>
+                                <li className="badge items-center">
+                                    <img className="badgeIcon" src="css.svg" alt="" />
+                                    <p>CSS</p>
+                                </li>
+
                             </ul>
                         </div>
                         
