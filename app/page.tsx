@@ -38,20 +38,20 @@ export default function Page(){
                             </header>
                             
                             <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
-                            <ul className="flex gap-3 mt-3 mb-6">
-                                <li className="badge items-center">
+                            <ul className="project-badges flex gap-3 mt-3 mb-6">
+                                <li className="items-center">
                                     <img className="badgeIcon" src="React_light.svg" alt="" />
                                     <p>React</p>
                                 </li>
-                                <li className="badge items-center">
+                                <li className="items-center">
                                     <img className="badgeIcon" src="vitejs.svg" alt="" />
                                     <p>Vite</p>
                                 </li>
-                                <li className="badge items-center">
+                                <li className="items-center">
                                     <img className="badgeIcon" src="typescript.svg" alt="" />
                                     <p>Typescript</p>
                                 </li>
-                                <li className="badge items-center">
+                                <li className="items-center">
                                     <img className="badgeIcon" src="html5.svg" alt="" />
                                     <p>Html 5</p>
                                 </li>
@@ -73,17 +73,17 @@ export default function Page(){
                             </header>
                             
                             <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
-                            <ul className="flex gap-3 mt-3">
-                                <li className="badge items-center">
-                                    <img className="badgeIcon" src="html5.svg" alt="" />
+                            <ul className="project-badges flex gap-3 mt-3">
+                                <li className="items-center">
+                                    <img className="project-badgeIcon" src="html5.svg" alt="" />
                                     <p>HTML5</p>
                                 </li>
-                                <li className="badge items-center">
-                                    <img className="badgeIcon" src="javascript.svg" alt="" />
+                                <li className="items-center">
+                                    <img className="project-badgeIcon" src="javascript.svg" alt="" />
                                     <p>JavaScript</p>
                                 </li>
-                                <li className="badge items-center">
-                                    <img className="badgeIcon" src="css.svg" alt="" />
+                                <li className="items-center">
+                                    <img className="project-badgeIcon" src="css.svg" alt="" />
                                     <p>CSS</p>
                                 </li>
 
@@ -101,8 +101,15 @@ export default function Page(){
         
         
         <section id="skills">
-            <h1 className="text-3xl font-bold text-white">Habilidades</h1>
-            <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
+            <h1 className='text-3xl font-bold text-secondary text-center '>Habilidades</h1>
+            <ul>
+                <li><img src="" alt="" /><p></p></li>
+                <li><img src="" alt="" /><p></p></li>
+                <li><img src="" alt="" /><p></p></li>
+                <li><img src="" alt="" /><p></p></li>
+                <li><img src="" alt="" /><p></p></li>
+                <li><img src="" alt="" /><p></p></li>
+            </ul>
         </section>
         
 
@@ -110,6 +117,7 @@ export default function Page(){
             <h1 className="text-3xl font-bold text-white">Sobre mi</h1>
             <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
         </section>
+
         </>
     )
 }

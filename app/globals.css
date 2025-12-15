@@ -29,7 +29,7 @@
     display: flex;
   }
 
-  .badge{
+  .project-badges li{
     display: inline-flex;
     background-color: var(--color-primary);
     border-radius: 1.5rem;
@@ -40,12 +40,12 @@
     box-shadow: var(--shadow-primary)
   }
 
-  .badgeIcon{
+  .project-badges img{
     width: 22px;
     height: 22px;
   }
 
-  .badge p {
+  .project-badge p {
     color: var(--color-secondary);
   }
 }
