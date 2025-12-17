@@ -42,7 +42,7 @@ export default function NavigationButtons(){
     return(
         <>
             <div className="fixed flex items-center left-1/2 bottom-5">
-                <a className="bg-secondary text-black rounded-full h-10 w-10 flex" href="#home"><div className="mx-auto my-auto mb-[0.5rem]"><AiFillHome size={25} strokeWidth={"4"}/></div></a>
+                <a onClick={()=> setCurrentSection(0)} className="bg-secondary text-black rounded-full h-10 w-10 flex" href={`#${sectionIds[0]}`}><div className="mx-auto my-auto mb-[0.5rem]"><AiFillHome size={25} strokeWidth={"4"}/></div></a>
                 <div className="flex flex-col gap-1">
                     <a onClick={() => handleNextSection(true)} className="scroll-section-btn flex items-center" href={`#${sectionIds[currentSection]}`}><IoIosArrowUp className="flex-1 mb-1" size={21}/></a>
                     <a onClick={() => handleNextSection(false)} className="scroll-section-btn flex items-center" href={`#${sectionIds[currentSection]}`}><IoIosArrowDown className="flex-1" size={21} /></a>

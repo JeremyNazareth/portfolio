@@ -101,14 +101,16 @@ export default function Page(){
         
         
         <section id="skills">
-            <h1 className='text-3xl font-bold text-secondary text-center '>Habilidades</h1>
-            <ul>
-                <li><img src="" alt="" /><p></p></li>
-                <li><img src="" alt="" /><p></p></li>
-                <li><img src="" alt="" /><p></p></li>
-                <li><img src="" alt="" /><p></p></li>
-                <li><img src="" alt="" /><p></p></li>
-                <li><img src="" alt="" /><p></p></li>
+            <h1 className='text-3xl font-bold text-secondary text-center'>Habilidades</h1>
+            <ul className='skills-badges flex w-fit mx-auto m-5 gap-10'>
+                <li><img src="html5.svg" alt="" />HTML5</li>
+                <li><img src="javascript.svg" alt="" />JavaScript</li>
+                <li><img src="css_old.svg" alt="" />CSS</li>
+                <li><img src="tailwindcss.svg" alt="" />Tailwindcss</li>
+                <li><img src="React_dark.svg" alt="" />React</li>
+                <li><img src="nextjs_icon_dark.svg" alt="" />Next.js</li>
+                <li><img src="python.svg" alt="" />Python</li>
+                <li><img src="mysql-icon-dark.svg" alt="" />MySQL</li>
             </ul>
         </section>
         
