@@ -57,12 +57,18 @@
     width: 80px;
     height: 80px;
   }
+
   .skills-badges img{
     width: 50px;
     height: 50px;
     margin: 0px auto;
     text-align: center;
     margin-bottom: 3px;
+  }
+
+  .redirection-badges img{
+    width: 25px;
+    height: 25px;
   }
 }
 

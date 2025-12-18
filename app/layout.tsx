@@ -3,6 +3,8 @@ import "./globals.css";
 import '@fontsource-variable/funnel-sans'
 import '@fontsource-variable/baloo-2';
 import '@fontsource-variable/jetbrains-mono';
+
+
 export const metadata: Metadata = {
   title: "Jeremy Portfolio",
   description: "El portfolio de Jeremy Nazareth",

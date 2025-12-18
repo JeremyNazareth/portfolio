@@ -1,9 +1,12 @@
 
 import NavegationButtons from './components/NavigationButtons'
+import CopyEmailButton from './components/CopyEmailButton'
 
 export default function Page(){
-
-
+    
+    const copyEmail = () =>{
+        navigator.clipboard.writeText("jer.reyesr@outlook.com")
+    }
     return(
         <>
         <section id="home" className="pt-40 scroll-m-80">
@@ -12,7 +15,12 @@ export default function Page(){
                 <p className="flex-initial leading-13 text-4xl text-secondary">Soy&nbsp;</p>
                 <p className="text-5xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</p>
             </div>
-            <p className="text-3xl text-gray-300">front-end Developer</p>
+            <p className="text-3xl text-gray-300">Junior front-end Developer</p>
+            <ul className='redirection-badges flex gap-2 my-2'>
+                <li><a target='_blank' href="https://github.com/JeremyNazareth/"><img src="github_dark.svg" alt="" /></a></li>
+                <li><a target='_blank' href="https://linkedin.com/in/jeremynazarethrr"><img src="linkedin.svg" alt="" /></a></li>
+                <li><CopyEmailButton/></li>
+            </ul>
             <button className="border-secondary text-secondary bg-primary border-2 px-3 py-1 rounded-full my-4 shadow-primary text-lg">Descargar CV</button>
         </section>
         
@@ -20,10 +28,8 @@ export default function Page(){
 
         <section id="projects" className="projects-section">
             <h1 className="text-3xl font-semibold text-secondary">Proyectos</h1>
-            <div className="projects-container flex mt-5">
-                
+            <div className="projects-container flex mt-5">   
                 <div className="projects">
-                    
                     <article className="flex">       
                         <div className="w-30">
                             <div className="h-full flex">
@@ -116,8 +122,16 @@ export default function Page(){
         
 
         <section id="about">
-            <h1 className="text-3xl font-bold text-white">Sobre mi</h1>
-            <h2 className="text-2xl w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit a natus vitae suscipit dolorem cum ducimus ut pariatur. Ipsam ut consectetur ab possimus modi deserunt neque eveniet! Provident, veniam!</h2>
+            <h1 className="text-3xl font-bold text-secondary mb-2 ">Sobre mi</h1>
+            <p className='text-xl'>Me llamo <strong>Jeremy Nazareth Reyes Riquelme</strong>,
+            titulado como <strong>Ingeniero en informática</strong>,
+             carrera que en la que formé fundamentos sólidos para poder especializarme en el <strong>front-end </strong>
+            con más de un año de experiencia desarrollando aplicaciones web.</p>
+            <p className='text-xl my-2'>Siempre me caractericé por ser una persona que ama aprender y mejorar cada día,
+                 encontrando mi lugar en la programación. Cada proyecto nuevo me lo tomo como un desafio, por lo que en cada uno
+                 incorporo una tecnología nueva.
+            </p>
+            <p className='text-xl'>A la espera de una <strong>oportunidad</strong> 💼 para explotar al máximo mis habilidades.</p>
         </section>
 
         </>
