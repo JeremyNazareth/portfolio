@@ -22,7 +22,9 @@ export default function Page(){
                 <li><a target='_blank' href="https://linkedin.com/in/jeremynazarethrr"><img src="linkedin.svg" alt="" /></a></li>
                 <li><CopyEmailButton/></li>
             </ul>
-            <button className="border-secondary text-secondary bg-primary border-2 px-3 py-1 rounded-full my-4 shadow-primary text-lg">Descargar CV</button>
+            <button 
+            className="border-secondary transition-all duration-300 cursor-pointer text-secondary bg-primary border-2 px-3 py-1 rounded-xl my-4 shadow-2xl shadow-button text-lg
+            hover:bg-secondary hover:text-black hover:shadow-secondary">Descargar CV</button>
         </section>
         
         <NavegationButtons/>
@@ -60,7 +62,7 @@ export default function Page(){
                                 </li>
                                 <li className="items-center">
                                     <img className="badgeIcon" src="html5.svg" alt="" />
-                                    <p>Html 5</p>
+                                    <p>HTML5</p>
                                 </li>
                             </ul>
                         </div>

@@ -2,12 +2,13 @@
 
 
 @theme inline {
-  --color-primary: #011833;
+  --color-primary: #021B45;
   --color-secondary: #E0B834;
   --font-primary:'Baloo 2 Variable', system-ui;
   --font-secondary: 'Funnel Sans Variable', sans-serif;
   --font-testing: 'JetBrains Mono Variable', monospace;
   --shadow-primary: rgba(255, 255, 255, 0.2) 0px 0px 10px 2px;
+  --shadow-button: rgba(255, 255, 255, 0.3) 0px 0px 20px;
 }
 
 @layer components {
@@ -34,7 +35,7 @@
     background-color: var(--color-primary);
     border-radius: 1.5rem;
     width: auto;
-    padding: 0.2rem 0.6rem;
+    padding: 0.3rem 0.8rem;
     gap: 0.3rem;
     border: #a58a31 2px solid;
     box-shadow: var(--shadow-primary)
