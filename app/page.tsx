@@ -11,6 +11,7 @@ export default function Page(){
         <>
         <section id="home" className="pt-40 scroll-m-80">
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
+            
             <div className="flex text-5xl items-end">
                 <p className="flex-initial leading-13 text-4xl text-secondary">Soy&nbsp;</p>
                 <p className="text-5xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</p>
