@@ -69,6 +69,13 @@
   .redirection-badges img{
     width: 25px;
     height: 25px;
+
+  }
+
+  .redirection-badges li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

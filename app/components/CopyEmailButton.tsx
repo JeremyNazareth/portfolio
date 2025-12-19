@@ -11,13 +11,14 @@ export default function CopyEmailButton(){
     }
     return(
         <div onClick={() => copyEmail()} 
-        className='group justify-end flex transition-all cursor-pointer relative w-7 h-7 duration-300 overflow-hidden
+        className='group justify-end flex transition-all cursor-pointer relative w-[27] h-[27] px-1  duration-1000 overflow-hidden items-center
         hover:justify-end hover:w-32
         border border-2 border-secondary bg-primary rounded-full'>
-            <p className="w-22 transition-all absolute right-7 duration-300 opacity-0 
+            <p className=" transition-all w-24 absolute text-center right-6 duration-300 opacity-0 
             group-hover:opacity-100">
             Copiar Email</p>
-            <div  className="w-8 my-auto flex justify-center"><MdEmail size={18} color="#E0B834" /></div>
+            <div  className="w-[25] my-auto flex justify-center"><MdEmail size={15} color="#E0B834" /></div>
         </div>
+        
     )
 }
