@@ -11,7 +11,7 @@ export default function CopyEmailButton(){
     }
     return(
         <div>
-            <div className="copyEmailAlert-container fixed inset-x-0 flex justify-center top-36">
+            <div className="copyEmailAlert-container fixed inset-x-0 flex justify-center -top-10">
                 <p className="bg-primary border-2 border-secondary rounded-full px-2 py-1">Email copiado en el portapeles.</p>
             </div>
             <div onClick={() => copyEmail()} 
