@@ -102,3 +102,19 @@ nav{
 section article {
   margin: 0px;
 }
+
+.copyEmailAlert-container{
+  animation: CopyEmailAlert 0.5s ease-in;
+}
+
+@keyframes CopyEmailAlert{
+  0% {
+    transform: translateY(-400%);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
