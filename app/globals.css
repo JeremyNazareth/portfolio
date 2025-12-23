@@ -78,6 +78,7 @@
     justify-content: center;
     align-items: center;
   }
+
 }
 
 html {
@@ -103,8 +104,14 @@ section article {
   margin: 0px;
 }
 
-.copyEmailAlert-container{
+.copyEmailAlert-animation{
   animation: CopyEmailAlert 6s;
+}
+
+.copyEmail-container-active{
+  background: white;
+  border-color: white;
+  box-shadow: var(--shadow-button);
 }
 
 @keyframes CopyEmailAlert {
