@@ -29,24 +29,24 @@ export default function Page(){
         
         <NavegationButtons/>
 
-        <section id="projects" className="projects-section">
+        <section id="projects" className="projects-section w-full">
             <h1 className="text-3xl font-semibold text-secondary">Proyectos</h1>
-            <div className="projects-container flex mt-5">   
-                <div className="projects">
-                    <article className="flex">       
-                        <div className="w-30">
+            <div className="flex mt-5 w-full">   
+                <div className="projects w-full">
+                    <article className="flex w-full">       
+                        <div className="w-1/8">
                             <div className="h-full flex">
                                 <div className="h-full w-1 bg-secondary mx-auto"> </div>
                                 <div className="h-4 w-4 rounded-full bg-secondary relative right-[50%] top-2 shadow-primary"></div>
                             </div>
                         </div>
-                        <div>
+                        <div className='w-7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> Movie Search</h1>
-                                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
+                                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae obcaecati, mollitia, reprehenderit, delectus tenetur totam quibusdam natus exercitationem temporibus accusantium quis illo dolorem recusandae incidunt animi vel voluptatibus id quisquam.</p>
                             </header>
                             
-                            <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
+                            <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="MovieSearch_Project.png" alt="" />        
                             <ul className="project-badges flex gap-3 mt-3 mb-6">
                                 <li className="items-center">
                                     <img className="badgeIcon" src="React_light.svg" alt="" />
@@ -68,20 +68,20 @@ export default function Page(){
                         </div>
                         
                     </article>
-                    <article className="flex">       
-                        <div className="w-30">
+                    <article className="flex w-full">       
+                        <div className="w-1/8">
                             <div className="h-full flex">
                                 <div className="h-full w-1 bg-secondary mx-auto"> </div>
                                 <div className="h-4 w-4 rounded-full bg-secondary relative right-[50%] top-2 shadow-primary"></div>
                             </div>
                         </div>
-                        <div>
+                        <div className='7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> ClassMate</h1>
-                                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim iure quod obcaecati magni voluptatem voluptates repellat libero aliquid commodi omnis porro, aspernatur soluta tempore beatae culpa perspiciatis! Placeat, minima?</p>
+                                <p className="text-lg"></p>
                             </header>
                             
-                            <img className="border-2 rounded-3xl p-1 my-4 w-md shadow-primary" src="movieSearch_Project.png" alt="" />        
+                            <img className="border-2 border-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="Classmate_Project.png" alt="" />        
                             <ul className="project-badges flex gap-3 mt-3">
                                 <li className="items-center">
                                     <img className="project-badgeIcon" src="html5.svg" alt="" />
@@ -111,7 +111,7 @@ export default function Page(){
         
         <section id="skills">
             <h1 className='text-3xl font-bold text-secondary text-center'>Habilidades</h1>
-            <ul className='skills-badges flex w-fit mx-auto m-5 gap-10'>
+            <ul className='skills-badges flex flex-wrap justify-center m-5 gap-10'>
                 <li><img src="html5.svg" alt="" />HTML5</li>
                 <li><img src="javascript.svg" alt="" />JavaScript</li>
                 <li><img src="css_old.svg" alt="" />CSS</li>

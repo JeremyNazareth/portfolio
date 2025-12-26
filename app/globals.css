@@ -26,18 +26,15 @@
    color: black;
   }
   
-  .projects-container{
-    display: flex;
-  }
-
   .project-badges li{
     display: inline-flex;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
+    color: black;
+    font-weight: 500;
     border-radius: 1.5rem;
     width: auto;
     padding: 0.3rem 0.8rem;
     gap: 0.3rem;
-    border: #a58a31 2px solid;
     box-shadow: var(--shadow-primary)
   }
 
@@ -100,8 +97,11 @@ nav{
   color: var(--color-secondary);
 }
 
-section article {
-  margin: 0px;
+nav a{
+  transition: ease 0.5s;
+}
+nav a:hover {
+  color: white;
 }
 
 .copyEmailAlert-animation{
