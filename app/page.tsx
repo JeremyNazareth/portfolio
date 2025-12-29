@@ -47,7 +47,7 @@ export default function Page(){
                             </header>
                             
                             <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="MovieSearch_Project.png" alt="" />        
-                            <ul className="project-badges flex gap-3 mt-3 mb-6">
+                            <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6  ">
                                 <li className="items-center">
                                     <img className="badgeIcon" src="React_light.svg" alt="" />
                                     <p>React</p>
@@ -75,24 +75,21 @@ export default function Page(){
                                 <div className="h-4 w-4 rounded-full bg-secondary relative right-[50%] top-2 shadow-primary"></div>
                             </div>
                         </div>
-                        <div className='7/8'>
+                        <div className='w-7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> ClassMate</h1>
                                 <p className="text-lg"></p>
                             </header>
                             
-                            <img className="border-2 border-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="Classmate_Project.png" alt="" />        
-                            <ul className="project-badges flex gap-3 mt-3">
-                                <li className="items-center">
-                                    <img className="project-badgeIcon" src="html5.svg" alt="" />
+                            <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="Classmate_Project.png" alt="" />        
+                            <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6">
+                                <li className="items-center"><img className="project-badgeIcon" src="html5.svg" alt="" />
                                     <p>HTML5</p>
                                 </li>
-                                <li className="items-center">
-                                    <img className="project-badgeIcon" src="javascript.svg" alt="" />
+                                <li className="items-center"><img className="project-badgeIcon" src="javascript.svg" alt="" />
                                     <p>JavaScript</p>
                                 </li>
-                                <li className="items-center">
-                                    <img className="project-badgeIcon" src="css.svg" alt="" />
+                                <li className="items-center"><img className="project-badgeIcon" src="css.svg" alt="" />
                                     <p>CSS</p>
                                 </li>
 

@@ -19,20 +19,22 @@
   }  
 
   .scroll-section-btn{
-   background-color: var(--color-secondary);
+   background-color: var(--color-primary);
    width: 25.78px;
    height: 25.78px;
    border-radius: calc(infinity * 1px);
-   color: black;
+   border: 2px solid var(--color-secondary);
   }
   
+  .scroll-section-btn svg{
+    color: var(--color-secondary);
+  }
+
   .project-badges li{
-    display: inline-flex;
+    display: flex;
     background-color: var(--color-secondary);
-    color: black;
-    font-weight: 500;
     border-radius: 1.5rem;
-    width: auto;
+    width: fit-content;
     padding: 0.3rem 0.8rem;
     gap: 0.3rem;
     box-shadow: var(--shadow-primary)
@@ -43,8 +45,10 @@
     height: 22px;
   }
 
-  .project-badge p {
-    color: var(--color-secondary);
+  .project-badges p {
+    color: black;
+    font-weight: 500;
+
   }
 
   .skills-badges li{
