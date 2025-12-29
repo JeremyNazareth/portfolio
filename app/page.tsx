@@ -43,7 +43,17 @@ export default function Page(){
                         <div className='w-7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> Movie Search</h1>
-                                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae obcaecati, mollitia, reprehenderit, delectus tenetur totam quibusdam natus exercitationem temporibus accusantium quis illo dolorem recusandae incidunt animi vel voluptatibus id quisquam.</p>
+                                <p className="text-lg mb-1">Proyecto desarrollado que simula un buscador de peliculas real, con buscador, sistema de filtros y listados de favoritos.
+                                    Este proyecto tuvo como objetivo aprender a usar React, debido que fué mi primer contacto con él.</p>
+                                    <strong>Funciones</strong>
+                                    <ul className='ml-5'>
+                                        <li>Filtrado de peliculas.</li>
+                                        <li>Listado de peliculas favoritas.</li>
+                                        <li>Consumo de API de TMDB.</li>
+                                        <li>Documentación del codigo completo.</li>
+                                    </ul>
+                                    
+                                
                             </header>
                             
                             <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="MovieSearch_Project.png" alt="" />        
