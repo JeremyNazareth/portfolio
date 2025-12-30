@@ -44,17 +44,20 @@ export default function Page(){
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> Movie Search</h1>
                                 <p className="text-lg mb-1">Proyecto desarrollado que simula un buscador de peliculas real, con buscador, sistema de filtros y listados de favoritos.
-                                    Este proyecto tuvo como objetivo aprender a usar React, debido que fué mi primer contacto con él.</p>
-                                    <strong>Funciones</strong>
-                                    <ul className='ml-5'>
-                                        <li>Filtrado de peliculas.</li>
-                                        <li>Listado de peliculas favoritas.</li>
-                                        <li>Consumo de API de TMDB.</li>
-                                        <li>Documentación del codigo completo.</li>
-                                    </ul>
-                                    
-                                
+                                    Este proyecto tuvo como objetivo aprender a usar React, debido que fué mi primer contacto con él.
+                                </p>
                             </header>
+                            <div  className='my-1'>
+                                <strong>Características</strong>
+                                <ul className='ml-8 list-disc'>
+                                    <li>Filtrado de peliculas.</li>
+                                    <li>Listado de peliculas favoritas.</li>
+                                    <li>Consumo de API de TMDB.</li>
+                                    <li>Documentación del codigo completo.</li>
+                                </ul>
+                            </div>
+                                
+                            
                             
                             <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="MovieSearch_Project.png" alt="" />        
                             <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6  ">
@@ -88,8 +91,18 @@ export default function Page(){
                         <div className='w-7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> ClassMate</h1>
-                                <p className="text-lg"></p>
+                                <p className="text-lg">Proyecto universitario que desarrollé en base a la idea de tener una herramienta útil y precisa para mis necesidades en todo el proceso de estudio.
+                                </p>
                             </header>
+                            <div  className='my-1'>
+                                <strong>Características</strong>
+                                <ul className='ml-8 list-disc'>
+                                    <li>Calculadora de notas.</li>
+                                    <li>Listado de actividades.</li>
+                                    <li>Creacion de apuntes.</li>
+                                    <li>Recordatorio de apuntes.</li>
+                                </ul>
+                            </div>
                             
                             <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="Classmate_Project.png" alt="" />        
                             <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6">
