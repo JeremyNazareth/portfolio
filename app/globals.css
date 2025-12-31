@@ -24,10 +24,21 @@
    height: 25.78px;
    border-radius: calc(infinity * 1px);
    border: 2px solid var(--color-secondary);
+   transition: all 0.3s;
   }
   
+  .scroll-section-btn:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+  }
+
   .scroll-section-btn svg{
+    transition: all 0.3s;
     color: var(--color-secondary);
+  }
+
+  .scroll-section-btn:hover svg{
+    color: var(--color-primary);
   }
 
   .project-badges li{

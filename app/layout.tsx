@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">                                                                 
       <body>
         <header id="header" className="shadow-primary bg-primary text-secondary px-5 py-1 my-10 lg:max-w-5xl md:max-w-2xl mx-auto flex justify-between rounded-full border-2">
-          <a className="text-3xl font-medium text-secondary" href="#home">Jeremy Nazareth</a>
+          <a className="text-3xl font-medium text-secondary leading-10" href="#home">Jeremy Nazareth</a>
         
           <nav className="flex text-lg/10 font-medium gap-5">
             <a href="#projects">Proyectos</a>
