@@ -1,6 +1,9 @@
 
 import NavegationButtons from './components/NavigationButtons'
 import CopyEmailButton from './components/CopyEmailButton'
+import { FaGithub } from "react-icons/fa";
+import { GoBrowser } from "react-icons/go";
+
 
 export default function Page(){
     
@@ -29,11 +32,11 @@ export default function Page(){
         
         <NavegationButtons/>
 
-        <section id="projects" className="projects-section w-full">
+        <section id="projects" className="projects-section">
             <h1 className="text-3xl font-semibold text-secondary">Proyectos</h1>
-            <div className="flex mt-5 w-full">   
-                <div className="projects w-full">
-                    <article className="flex w-full">       
+            <div className="flex mt-5">   
+                <div className="projects ">
+                    <article className="flex">       
                         <div className="w-1/8">
                             <div className="h-full flex">
                                 <div className="h-full w-1 bg-secondary mx-auto"> </div>
@@ -57,9 +60,14 @@ export default function Page(){
                                 </ul>
                             </div>
                                 
+                            <div className='project-img max-w-md relative'> 
+                                <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="MovieSearch_Project.png" alt="" />        
+                                <ul className='absolute flex text-secondary inset-x-0 inset-y-0 items-end justify-end pb-4 pr-5'>
+                                    <li><FaGithub /></li>
+                                    <li><GoBrowser /></li>
+                                </ul>
+                            </div>
                             
-                            
-                            <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="MovieSearch_Project.png" alt="" />        
                             <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6  ">
                                 <li className="items-center">
                                     <img className="badgeIcon" src="React_light.svg" alt="" />
@@ -81,7 +89,7 @@ export default function Page(){
                         </div>
                         
                     </article>
-                    <article className="flex w-full">       
+                    <article className="flex">       
                         <div className="w-1/8">
                             <div className="h-full flex">
                                 <div className="h-full w-1 bg-secondary mx-auto"> </div>

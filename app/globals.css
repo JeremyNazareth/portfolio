@@ -41,6 +41,14 @@
     color: var(--color-primary);
   }
 
+  .project-img li{
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-secondary);
+    padding: 0.3rem;
+    margin: 0px 1px;
+  }
+
   .project-badges li{
     display: flex;
     background-color: var(--color-secondary);
