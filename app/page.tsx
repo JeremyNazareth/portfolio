@@ -63,8 +63,8 @@ export default function Page(){
                             <div className='project-img max-w-md relative'> 
                                 <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="MovieSearch_Project.png" alt="" />        
                                 <ul className='absolute flex text-secondary inset-x-0 inset-y-0 items-end justify-end pb-4 pr-5'>
-                                    <li><FaGithub /></li>
-                                    <li><GoBrowser /></li>
+                                    <li><a target='_blank' href="https://github.com/JeremyNazareth/react-movie-search"><FaGithub /></a></li>
+                                    <li><a target='_blank' href="https://jeremynazareth.github.io/react-movie-search/"><GoBrowser /></a></li>
                                 </ul>
                             </div>
                             
@@ -112,7 +112,12 @@ export default function Page(){
                                 </ul>
                             </div>
                             
-                            <img className="border-2 text-secondary rounded-3xl p-1 my-4 w-md shadow-primary" src="Classmate_Project.png" alt="" />        
+                            <div className='project-img max-w-md relative'> 
+                                <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="Classmate_Project.png" alt="" />        
+                                <ul className='absolute flex text-secondary inset-x-0 inset-y-0 items-end justify-end pb-4 pr-5'>
+                                    <li><a target='_blank' href="https://github.com/JeremyNazareth/react-movie-search"><FaGithub /></a></li>    
+                                </ul>
+                            </div>    
                             <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6">
                                 <li className="items-center"><img className="project-badgeIcon" src="html5.svg" alt="" />
                                     <p>HTML5</p>
