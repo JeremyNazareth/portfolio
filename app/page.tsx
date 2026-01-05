@@ -61,7 +61,7 @@ export default function Page(){
                             </div>
                                 
                             <div className='project-img max-w-md relative'> 
-                                <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="MovieSearch_Project.png" alt="" />        
+                                <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="movie-search-project.png" alt="" />        
                                 <ul className='absolute flex text-secondary inset-x-0 inset-y-0 items-end justify-end pb-4 pr-5'>
                                     <li><a target='_blank' href="https://github.com/JeremyNazareth/react-movie-search"><FaGithub /></a></li>
                                     <li><a target='_blank' href="https://jeremynazareth.github.io/react-movie-search/"><GoBrowser /></a></li>
@@ -113,7 +113,7 @@ export default function Page(){
                             </div>
                             
                             <div className='project-img max-w-md relative'> 
-                                <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="ClassMate_Project.png" alt="" />        
+                                <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="classmate-project.png" alt="" />        
                                 <ul className='absolute flex text-secondary inset-x-0 inset-y-0 items-end justify-end pb-4 pr-5'>
                                     <li><a target='_blank' href="https://github.com/JeremyNazareth/react-movie-search"><FaGithub /></a></li>    
                                 </ul>
