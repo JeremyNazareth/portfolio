@@ -16,8 +16,9 @@ export default function Page(){
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
             
             <div className="flex text-5xl items-end">
-                <p className="flex-initial leading-13 text-4xl text-secondary">Soy&nbsp;</p>
-                <p className="text-5xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</p>
+                <p className="flex-initial leading-13 text-4xl text-secondary">Soy&nbsp;
+                    <strong  className="text-5xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</strong>
+                </p>
             </div>
             <p className="text-3xl text-gray-300">Junior front-end Developer</p>
             <ul className='redirection-badges flex gap-2 my-2'>
