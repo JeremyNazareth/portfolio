@@ -51,7 +51,7 @@ export default function Page(){
                                 </p>
                             </header>
                             <div  className='my-1'>
-                                <strong>Características</strong>
+                                <strong className='text-secondary'>Características</strong>
                                 <ul className='ml-8 list-disc'>
                                     <li>Filtrado de peliculas.</li>
                                     <li>Listado de peliculas favoritas.</li>
@@ -103,7 +103,7 @@ export default function Page(){
                                 </p>
                             </header>
                             <div  className='my-1'>
-                                <strong>Características</strong>
+                                <strong className='text-secondary'>Características</strong>
                                 <ul className='ml-8 list-disc'>
                                     <li>Calculadora de notas.</li>
                                     <li>Listado de actividades.</li>
