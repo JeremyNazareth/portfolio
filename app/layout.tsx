@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">                                                                 
       <body className="px-5">
-        <header id="header" className="shadow-primary bg-primary text-secondary px-4 py-1 my-10 mx-auto flex justify-between rounded-full border-2
+        <header id="header" className="shadow-primary bg-primary text-secondary px-3 py-1 my-10 mx-auto flex justify-between rounded-full border-2
         lg:max-w-5xl lg:px-8 sm:px-8">
           <a className="text-2xl font-bold leading- text-secondary transition-all duration-300 hover:text-white
           lg:text-3xl" href="#home">Jeremy</a>
@@ -34,7 +34,7 @@ export default function RootLayout({
             <a href="#about">Sobre mi</a>
           </nav>
         </header>
-        <main className="lg:max-w-5xl  mx-auto px-8">
+        <main className="lg:max-w-5xl  mx-auto">
           {children}
         </main>
         
