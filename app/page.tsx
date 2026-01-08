@@ -13,15 +13,15 @@ export default function Page(){
     return(
         <>
         <section id="home" className="pt-20 h-6/8 lg:pt-40 scroll-m-80">
-            <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
+            <h1 className="text-3xl md:text-2xl">¡Bienvenido a mi portfolio!</h1>
             
             <div className="flex text-5xl items-end">
                 <p className="flex-initial leading-13 lg:text-4xl text-3xl text-secondary">Soy&nbsp;
-                    <strong  className="lg:text-5xl text-4xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</strong>
+                    <strong  className="lg:text-5xl text-4xl text-secondary font-semibold flex-initial sm:text-5xl">Jeremy Nazareth</strong>
                 </p>
 
             </div>
-            <p className="text-3xl text-gray-300">Junior front-end Developer</p>
+            <p className="text-3xl text-gray-300 md:text-2xl">Junior front-end Developer</p>
             <ul className='redirection-badges flex gap-2 my-2'>
                 <li><a target='_blank' href="https://github.com/JeremyNazareth/"><img src="github_dark.svg" alt="" /></a></li>
                 <li><a target='_blank' href="https://linkedin.com/in/jeremynazarethrr"><img src="linkedin.svg" alt="" /></a></li>
