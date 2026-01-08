@@ -12,13 +12,14 @@ export default function Page(){
     }
     return(
         <>
-        <section id="home" className="pt-40 scroll-m-80">
+        <section id="home" className="pt-20 h-6/8 lg:pt-40 scroll-m-80">
             <h1 className="text-3xl">¡Bienvenido a mi portfolio!</h1>
             
             <div className="flex text-5xl items-end">
                 <p className="flex-initial leading-13 text-4xl text-secondary">Soy&nbsp;
                     <strong  className="text-5xl text-secondary font-semibold flex-initial sm:text-6xl">Jeremy Nazareth</strong>
                 </p>
+
             </div>
             <p className="text-3xl text-gray-300">Junior front-end Developer</p>
             <ul className='redirection-badges flex gap-2 my-2'>
@@ -33,7 +34,7 @@ export default function Page(){
         
         <NavegationButtons/>
 
-        <section id="projects" className="projects-section">
+        <section id="projects" className="projects-section scroll-mt-5">
             <h1 className="text-3xl font-semibold text-secondary">Proyectos</h1>
             <div className="flex mt-5">   
                 <div className="projects ">
@@ -119,7 +120,7 @@ export default function Page(){
                                     <li><a target='_blank' href="https://github.com/JeremyNazareth/react-movie-search"><FaGithub /></a></li>    
                                 </ul>
                             </div>    
-                            <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6">
+                            <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3">
                                 <li className="items-center"><img className="project-badgeIcon" src="html5.svg" alt="" />
                                     <p>HTML5</p>
                                 </li>
@@ -143,7 +144,7 @@ export default function Page(){
         </section>
         
         
-        <section id="skills">
+        <section id="skills" className='scroll-mt-20'>
             <h1 className='text-3xl font-bold text-secondary text-center'>Habilidades</h1>
             <ul className='skills-badges flex flex-wrap justify-center m-5 gap-10'>
                 <li><img src="html5.svg" alt="" />HTML5</li>
@@ -158,7 +159,7 @@ export default function Page(){
         </section>
         
 
-        <section id="about">
+        <section id="about" className='scroll-mt-15'>
             <h1 className="text-3xl font-bold text-secondary mb-2 ">Sobre mi</h1>
             <p className='text-xl'>Me llamo <strong>Jeremy Nazareth Reyes Riquelme</strong>,
             titulado como <strong>Ingeniero en informática</strong>,
