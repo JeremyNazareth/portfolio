@@ -12,6 +12,7 @@ export default function Page(){
     }
     return(
         <>
+        
         <section id="home" className="pt-20 h-6/8 lg:pt-40 scroll-m-80">
             <h1 className="text-3xl md:text-2xl">¡Bienvenido a mi portfolio!</h1>
             

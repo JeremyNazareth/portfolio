@@ -21,14 +21,18 @@ export default function RootLayout({
   //bg-secondary rounded-4xl m-6 h-18 w-[90%] mx-auto shadow-md
   */
   return (
-    <html lang="en">                                                                 
+    <html lang="en">     
+      <meta name="color-scheme" content="dark light"></meta>                                                            
       <body className="px-5 sm:px-20 lg:max-w-5xl mx-auto">
-        <header id="header" className="shadow-primary bg-primary text-secondary px-5 py-1 my-10 mx-auto flex justify-between rounded-full border-2
-        lg:max-w-5xl lg:px-8">
-          <a className="text-2xl font-bold text-secondary transition-all duration-300 hover:text-white
-          lg:text-3xl" href="#home">Jeremy</a>
+        <header id="header" className="shadow-primary bg-primary text-secondary px-5 py-1 my-10 mx-auto flex rounded-full border-2 items-center
+        lg:max-w-5xl lg:px-8
+        md:justify-between">
+          <a className="hidden text-2xl font-bold text-secondary transition-all duration-300 hover:text-white
+          lg:block lg:text-3xl
+          sm:block" href="#home">Jeremy</a>
         
-          <nav className="flex items-center text-base font-semibold gap-2 md:text-lg">
+          <nav className="flex w-full justify-around text-base font-semibold gap-2 
+          md:text-lg md:w-auto ">
             <a href="#projects">Proyectos</a>
             <a href="#skills">Habilidades</a>           
             <a href="#about">Sobre mi</a>
