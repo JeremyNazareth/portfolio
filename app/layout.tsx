@@ -31,7 +31,7 @@ export default function RootLayout({
           lg:block lg:text-3xl
           sm:block" href="#home">Jeremy</a>
         
-          <nav className="flex w-full justify-around text-base font-semibold gap-2 
+          <nav className="flex w-full justify-around text-md font-semibold gap-2 
           md:text-lg md:w-auto ">
             <a href="#projects">Proyectos</a>
             <a href="#skills">Habilidades</a>           
@@ -41,7 +41,6 @@ export default function RootLayout({
         <main className="lg:max-w-5xl  mx-auto">
           {children}
         </main>
-        
       </body>
     </html>
   );

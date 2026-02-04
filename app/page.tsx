@@ -49,17 +49,18 @@ export default function Page(){
                         <div className='w-7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> Movie Search</h1>
-                                <p className="text-lg mb-1">Proyecto desarrollado que simula un buscador de peliculas real, con buscador, sistema de filtros y listados de favoritos.
-                                    Este proyecto tuvo como objetivo aprender a usar React, debido que fué mi primer contacto con él.
+                                <p className="text-lg mb-1">El primer proyecto que desarrollé con React, mi primer contacto con esta tecnología. La aplicación web simula un buscador de películas real, con un sistema de filtrado y un listado en el que puedes agregar tus películas favoritas,
+                                    el objetivo de este proyecto fue aprender a usar las ventajas del framework por lo que implementé las funciones principales de este (hooks, componentes reutilizables, gestión de estado) .
                                 </p>
                             </header>
                             <div  className='my-1'>
                                 <strong className='text-secondary'>Características</strong>
                                 <ul className='ml-8 list-disc'>
-                                    <li>Filtrado de peliculas.</li>
-                                    <li>Listado de peliculas favoritas.</li>
-                                    <li>Consumo de API de TMDB.</li>
-                                    <li>Documentación del codigo completo.</li>
+                                    <li>Filtrado de películas según el genero deseado.</li>
+                                    <li>Gestión de peliculas favoritas.</li>
+                                    <li>Consumo de API REST de The Movie Database.</li>
+                                    <li>19 generos y más de 100 películas.</li>
+                                    <li>Documentación del código completo.</li>
                                 </ul>
                             </div>
                                 
@@ -102,16 +103,16 @@ export default function Page(){
                         <div className='w-7/8'>
                             <header>
                                 <h1 className="text-2xl font-semibold text-secondary"> ClassMate</h1>
-                                <p className="text-lg">Proyecto universitario que desarrollé en base a la idea de tener una herramienta útil y precisa para mis necesidades en todo el proceso de estudio.
+                                <p className="text-lg">Proyecto Universitario que desarrollé mientras estudiaba. La idea surgió en base de tener una herramienta completa que me acompañara en mi proceso de aprendizaje de manera
+                                    en la que podría hacer seguimiento de las responsabilidades que tenía de estudiante, con lo que creé esta página web.
                                 </p>
                             </header>
                             <div  className='my-1'>
                                 <strong className='text-secondary'>Características</strong>
                                 <ul className='ml-8 list-disc'>
                                     <li>Calculadora de notas.</li>
-                                    <li>Listado de actividades.</li>
+                                    <li>Seguimiento de actividades.</li>
                                     <li>Creacion de apuntes.</li>
-                                    <li>Recordatorio de apuntes.</li>
                                 </ul>
                             </div>
                             
