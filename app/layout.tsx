@@ -22,7 +22,14 @@ export default function RootLayout({
   */
   return (
     <html lang="en">     
-      <meta name="color-scheme" content="dark light"></meta>                                                            
+      <head>
+        <meta name="color-scheme" content="dark light"></meta>                                                            
+        <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)"></meta>
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)"></meta>
+        <meta name="supported-color-schemes" content="dark light"></meta>
+      </head>
+      
+
       <body className="px-5 sm:px-20 lg:max-w-5xl mx-auto">
         <header id="header" className="shadow-primary bg-primary text-secondary px-5 py-1 my-10 mx-auto flex rounded-full border-2 items-center
         lg:max-w-5xl lg:px-8
