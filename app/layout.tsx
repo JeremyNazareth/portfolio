@@ -42,7 +42,7 @@ export default function RootLayout({
           md:text-lg md:w-auto ">
             <a href="#projects">Proyectos</a>
             <a href="#skills">Habilidades</a>           
-            <a href="#about">Sobre mi</a>
+            <a href="#about">Sobre mí</a>
           </nav>
         </header>
         <main className="lg:max-w-5xl  mx-auto">

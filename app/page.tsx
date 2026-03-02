@@ -162,7 +162,7 @@ export default function Page(){
             
 
             <section id="about" className='scroll-mt-15'>
-                <h1 className="text-3xl font-bold text-secondary mb-2 ">Sobre mi</h1>
+                <h1 className="text-3xl font-bold text-secondary mb-2 ">Sobre mí</h1>
                 <p className='text-xl'>Me llamo <strong>Jeremy Nazareth Reyes Riquelme</strong>,
                 titulado como <strong>Ingeniero en informática</strong>,
                 carrera en la que formé fundamentos sólidos para especializarme en el <strong>front-end</strong>
