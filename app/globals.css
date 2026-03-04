@@ -11,7 +11,13 @@
   --shadow-button: rgba(255, 255, 255, 0.3) 0px 0px 20px;
 }
 
+:root{
+  color-scheme: light dark !important;
+}
+
 @layer components {
+
+  
   .secondary-text{
     font-size: 20px;
     color: black;

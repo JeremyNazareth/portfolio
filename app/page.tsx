@@ -166,7 +166,7 @@ export default function Page(){
                 <p className='text-xl'>Me llamo <strong>Jeremy Nazareth Reyes Riquelme</strong>,
                 titulado como <strong>Ingeniero en informática</strong>,
                 carrera en la que formé fundamentos sólidos para especializarme en el <strong>front-end</strong>
-                con más de un año de experiencia desarrollando aplicaciones web.</p>
+                &nbsp;con más de un año de experiencia desarrollando aplicaciones web.</p>
                 <p className='text-xl my-2'>Siempre me caractericé por ser una persona que ama mejorar y aprender cada día,
                     llegando por naturaleza a la programación. Cada proyecto nuevo me lo tomo como un desafio, por lo que en cada uno
                     incorporo una tecnología nueva.
