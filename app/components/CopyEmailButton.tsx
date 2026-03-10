@@ -24,7 +24,6 @@ export default function CopyEmailButton(){
             setTimeout(() => {alertContainerRef.current?.classList.remove(alertContainerClass)},6000)
             setTimeout(() => {copyEmailRef.current?.classList.remove(copyEmailButtonActive)}, 300)
         }
-        
     }
 
     return(
