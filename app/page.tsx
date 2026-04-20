@@ -102,6 +102,58 @@ export default function Page(){
                             </div>
                             <div className='w-7/8'>
                                 <header>
+                                    <h1 className="text-2xl font-semibold text-secondary"> EasyMock (En desarrollo)</h1>
+                                    <p className="text-lg">Easy Mock es una herramienta en desarrollo que permite generar datos falsos estructurados y personalizables para pruebas, prototipos o cualquier entorno que requiera información simulada.
+                                         Una de sus grandes fortalezas es la interfaz inspirada en un explorador de archivos, diseñada para que cualquier usuario de computadoras se sienta inmediatamente familiarizado.
+                                    </p>
+                                </header>
+                                <div  className='my-1'>
+                                    <strong className='text-secondary'>Características</strong>
+                                    <ul className='ml-8 list-disc'>
+                                        <li>Interfaz tipo explorador de archivos.</li>
+                                        <li>Generación bajo demanda.</li>
+                                        <li>Múltiples tipos de datos.</li>
+                                        <li>Modo interactivo</li>
+                                    </ul>
+                                </div>
+                                
+                                <div className='project-img max-w-md relative'> 
+                                    <img className="flex-1 border-2 text-secondary rounded-3xl p-1 my-4 w-md h-auto shadow-primary" src="easymock_early_figmaSketch.png" alt="" />        
+                                    <ul className='absolute flex text-secondary inset-x-0 inset-y-0 items-end justify-end pb-4 pr-5'>
+                                        <li><a target='_blank' href="https://github.com/JeremyNazareth/easymock-data-generator"><FaGithub /></a></li>    
+                                    </ul>
+                                </div>    
+                                <ul className="project-badges flex flex-wrap max-w-md gap-3 mt-3 mb-6  ">                                  
+                                    <li className="items-center"> <img src="expressjs.svg" alt="" />
+                                        <p>Express</p>
+                                    </li>
+                                    <li className="items-center"> <img src="nodejs.svg" alt="" />
+                                        <p>Node.js</p>
+                                    </li>
+                                    <li className="items-center"><img src="nextjs_icon_dark.svg" alt="" />
+                                        <p>Next.js</p>
+                                    </li>
+                                    <li className="items-center"><img className="project-badgeIcon" src="typescript.svg" alt="" />
+                                        <p>TypeScript</p>
+                                    </li>
+                                    <li className="items-center"><img className="project-badgeIcon" src="html5.svg" alt="" />
+                                        <p>HTML5</p>
+                                    </li>
+                                    <li className="items-center"><img src="tailwindcss.svg" alt="" />
+                                        <p>Tailwindcss</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article className="flex">       
+                            <div className="w-1/8">
+                                <div className="h-full flex">
+                                    <div className="h-full w-1 bg-secondary mx-auto"> </div>
+                                    <div className="h-4 w-4 rounded-full bg-secondary relative right-[50%] top-2 shadow-primary"></div>
+                                </div>
+                            </div>
+                            <div className='w-7/8'>
+                                <header>
                                     <h1 className="text-2xl font-semibold text-secondary"> ClassMate</h1>
                                     <p className="text-lg">Proyecto Universitario que desarrollé mientras estudiaba. La idea surgió en base de tener una herramienta completa que me acompañara en mi proceso de aprendizaje de manera
                                         en la que podría hacer seguimiento de las responsabilidades que tenía de estudiante, con lo que creé esta página web.
@@ -135,7 +187,6 @@ export default function Page(){
 
                                 </ul>
                             </div>
-                            
                         </article>
                     </div>
                     
