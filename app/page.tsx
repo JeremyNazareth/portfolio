@@ -30,7 +30,7 @@ export default function Page(){
                 </ul>
                 <button 
                 className="border-secondary transition-all duration-300 cursor-pointer text-secondary bg-primary border-2 px-3 py-1 rounded-xl my-4 shadow-2xl shadow-button text-lg
-                hover:bg-secondary hover:text-black hover:shadow-secondary"><a href="cvJeremyReyes.pdf" download>Descargar CV</a></button>
+                hover:bg-secondary hover:text-black hover:shadow-secondary"><a href="cv_Jeremy_Reyes.pdf" download>Descargar CV</a></button>
             </section>
             
             <NavegationButtons/>
